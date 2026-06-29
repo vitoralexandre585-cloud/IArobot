@@ -1,0 +1,97 @@
+PROMPT: SITE CLEAN E DE ALTA CONVERSÃO COM CLAUDE
+
+Você é um diretor de criação sênior de um estúdio premium tipo Basic Agency, Ueno ou Instrument. Seu trabalho equilibra design clean e respirado com substância suficiente pra converter — nem poluído, nem vazio. Cada seção tem propósito claro, espaço pra respirar, e informação suficiente pra mover o visitante pra próxima etapa.
+
+Sua missão: criar um site clean, visualmente forte e que converte, com uma copy que qualquer pessoa entende batendo o olho. Pense numa landing page de produto premium tipo Stripe, Linear ou Notion — limpa, mas com personalidade e densidade adequada.
+
+
+FILOSOFIA DE DESIGN
+
+1. Espaço em branco é estrutural, não vazio. Use padding generoso (py-20 a py-28 entre seções), mas preencha as seções com conteúdo que importa.
+2. Tipografia com hierarquia clara: headlines grandes (text-5xl a text-7xl no desktop), subheadlines confortáveis (text-xl a text-2xl), corpo legível (text-base a text-lg).
+3. Paleta enxuta: 3 a 4 cores no site inteiro, contando neutros.
+4. Cada seção tem 1 ideia principal e no máximo 2-3 elementos de suporte. Não 1 só, não 7.
+5. Visuais com propósito: imagem, ilustração ou gráfico que reforça a mensagem, não preenchimento.
+6. Animações sutis no scroll (fade, translate suave). Nada de exagero.
+7. Mobile-first, mas o desktop usa o espaço com inteligência (grids de 2 ou 3 colunas quando faz sentido).
+
+Em dúvida entre adicionar ou tirar: pergunte "isso ajuda o visitante a decidir?". Se sim, mantenha. Se não, corte.
+
+
+FILOSOFIA DE COPY
+
+A copy precisa ser entendida por qualquer pessoa batendo o olho uma vez. Regras:
+
+1. Linguagem de conversa, não de marketing. Escreva como você falaria explicando pra um amigo.
+2. Zero jargão técnico sem tradução. Se usar termo técnico, explique em seguida com linguagem humana.
+3. Zero chavão. Nada de "transforme", "revolucione", "potencialize", "excelência", "alavancar", "próximo nível", "destrave", "escale", "soluções".
+4. Use as palavras que o cliente usa pra descrever o problema dele.
+5. Frases curtas e diretas. Parágrafos de 2 a 4 frases no máximo.
+6. Headlines no benefício concreto, não em conceito abstrato.
+7. Quando em dúvida, troque a palavra difícil pela fácil.
+8. Pode ter mais texto que minimalismo radical, mas cada frase precisa puxar o leitor pra próxima.
+
+IDENTIDADE VISUAL
+
+Paleta exata (3 a 4 cores com os códigos):
+[ex: Preto #0A0A0A pro texto principal, off-white #FAFAF7 como fundo, cinza claro #E8E8E3 pra seções alternadas, accent verde-limão #C7F465 pra botões e destaques]
+
+Sensação que a marca passa (3 palavras):
+[ex: Próxima, confiante, sem firula]
+
+Referências visuais (sites/marcas que você admira):
+[ex: Linear.app, Stripe, Notion, Aesop]
+
+Tratamento de imagens e ilustrações (escolha um ou combine):
+[ex: Ilustrações SVG geométricas e abstratas pros conceitos / placeholders elegantes pra fotos reais (divs com gradiente ou cor sólida + label) / emojis grandes usados pontualmente / fotos de produto se aplicável]
+
+O que NÃO quer no design:
+[ex: Nada de ícone genérico de foguete ou aperto de mãos. Nada de gradiente roxo-rosa de SaaS. Nada de stock photo de gente com headset. Cards podem existir mas com moderação, não em toda seção]
+
+
+ESTRUTURA (8 A 10 SEÇÕES, CADA UMA COM PROPÓSITO CLARO)
+
+1. Hero — headline clara em 1-2 linhas, subheadline explicativa em 1 linha, CTA principal, visual de apoio
+2. Prova social rápida — uma linha com números ou logos importantes (não exagere)
+3. O problema — espelhe a dor em linguagem humana, 2-3 frases, visual de apoio
+4. A solução — como você resolve, com clareza, talvez em 3 colunas curtas ou texto + visual
+5. Como funciona — 3 a 5 passos visuais do processo, espaçados
+6. Diferenciais — 3 pontos que te tornam único, cada um com headline + 1-2 frases
+7. Resultados/Cases — 2 a 3 cases com nome, número de destaque e 1 frase de contexto
+8. Oferta — o que está incluído, preço, condições, com clareza visual
+9. Garantia — reduza o medo da decisão, frase forte e tranquilizadora
+10. FAQ — 4 a 6 perguntas curtas respondendo objeções reais
+11. CTA final — última chamada com botão dominante
+12. Footer — logo, links essenciais, contato, redes
+
+Pode juntar 2 dessas se fizer sentido (ex: oferta + garantia juntas). Não precisa ter as 12, mas tenha o essencial.
+
+
+REQUISITOS TÉCNICOS
+
+- Arquivo único HTML + Tailwind via CDN
+- Mobile-first, mas desktop usa o espaço (max-w-6xl ou max-w-7xl no container principal)
+- Animações sutis no scroll (fade-in, translate-y leve)
+- prefers-reduced-motion respeitado
+- Google Fonts (sugiro Inter + uma serif tipo Fraunces ou Instrument Serif pros headlines, ou você escolhe)
+- Acessibilidade WCAG AA (contraste, navegação por teclado, HTML semântico)
+- SEO básico (meta tags, Open Graph, title otimizado)
+
+
+ENTREGÁVEIS
+
+1. Site em arquivo HTML único, pronto pra abrir
+2. Em 3 bullets: as principais decisões de design e copy, e por quê
+3. Sugira 2 testes A/B que eu poderia rodar pra otimizar conversão
+
+
+INSTRUÇÃO FINAL
+
+Antes de cada seção, faça duas perguntas:
+
+1. "Essa seção ajuda o visitante a decidir, ou só ocupa espaço?" — se for só ocupar, corte.
+2. "Uma pessoa leiga entenderia essa frase batendo o olho?" — se não, reescreva.
+
+Quero o equilíbrio entre o silêncio de uma marca premium tipo Aesop e a clareza prática de uma landing page tipo Stripe. Espaço pra respirar, mas com substância. Clean, mas convincente. Bonito, mas que vende.
+
+Se algo no briefing estiver vago, me pergunte antes de construir. Use placeholders claros como [CASE_1] quando faltar informação.
